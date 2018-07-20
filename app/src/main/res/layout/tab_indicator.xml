@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:drawablePadding="4dp"
+        android:drawableTop="@drawable/selector_tab_home"
+        android:gravity="center"
+        android:text="首页"
+        android:textColor="@color/selector_tab_text"
+        android:textSize="10sp" />
+</RelativeLayout>

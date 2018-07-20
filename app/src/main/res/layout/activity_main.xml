@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_first"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="用FragmentTabHost实现底部导航栏" />
+
+    <Button
+        android:id="@+id/btn_second"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="自定义MyFragmentTabHost实现带图片的底部导航栏" />
+</LinearLayout>
